@@ -1,5 +1,9 @@
-import 'package:class_dart_example/class_dart_example.dart' as class_dart_example;
+class Person {
+  String name = 'Name';
+  int age = 10;
+}
 
 void main(List<String> arguments) {
-  print('Hello world: ${class_dart_example.calculate()}!');
+  final person = Person();
+  print(person.name);
 }
